@@ -1,0 +1,175 @@
+body{
+  background-color: #D3EBCD;
+  /* background-color: #AEDBCE; */
+  margin: 0 12rem;
+  font-family: "Montserrat", "Arial";
+}
+
+h1{
+  font-family: "Montserrat", "Arial";
+  font-weight: 900;
+  font-size: 5rem;
+}
+
+h2{
+  font-family: "Montserrat", "Arial";
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h3{
+  font-family: "Montserrat", "Arial";
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* Navbar Section*/
+
+.navbar{
+  font-family: "Montserrat", "Arial";
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-item{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navBtn{
+  color: #000;
+  background-color: #D3EBCD;
+  border-color: #D3EBCD;
+}
+
+/* Title Section*/
+
+.title-section{
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.title-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  height: auto;
+}
+
+/* Facilities Section */
+
+.facilities-section{
+  margin: 0 -12rem;
+  padding: 5rem 12rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.cards-section{
+  margin-top: 4rem;
+}
+
+.feature-image{
+  padding-bottom: 1rem;
+}
+
+.card-text{
+  font-size: 1.2rem;
+}
+
+/* Footer Section */
+
+footer{
+  padding: 5% 20%;
+  text-align: center;
+}
+
+.contact-img {
+  padding: 20px 10px;
+}
+
+/* Transfer EJS */
+
+
+.transfer-form{
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+/* Media Query */
+@media (max-width: 1290px) {
+  .navbar{
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 1195px) {
+  .navbar{
+    font-size: 1.2rem;
+  }
+  h1{
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1112px) {
+  h1{
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1135px) {
+  body{
+    margin: 0 8rem;
+  }
+}
+
+@media (max-width: 635px) {
+  body{
+    margin: 0 6rem;
+  }
+  h1{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  .transfer-form{
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .transfer-form{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .transfer-form{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+/* About Section */
+
+.about-section{
+  background-color: #fff;
+  margin: 0 -14rem;
+  padding: 3rem 14rem;
+}
+
+.about-desc{
+  font-size: 1.3rem;
+}

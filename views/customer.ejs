@@ -1,0 +1,30 @@
+<%- include("header") -%>
+
+  <body>
+    <h2>All Customers</h2>
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Account No</th>
+      <th scope="col">Balance</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <% customerInfo.forEach(function(custItem){ %>
+      <tr>
+        <th scope="row"><%= custItem.customer_id %></th>
+        <td><%= custItem.name %></td>
+        <td><%= custItem.email %></td>
+        <td><%= custItem.accountNo %></td>
+        <td>₹<%= custItem.balance %></td>
+      </tr>
+  <%  }) %>
+  </tbody>
+</table>
+  </body>
+
+<%- include("footer") -%>

@@ -1,0 +1,16 @@
+<%- include("header") -%>
+
+<body class="text-center">
+  <h2>Check Balance</h2>
+
+  <h3 class="mt-5" style="color: #198754;"><%= balanceInfo %></h3>
+
+  <form class="transfer-form mt-5" action="/bankBalance" method="post">
+  <div class="form-group">
+    <input type="text" name="AccNo" class="form-control form-control-lg rounded-0 mt-1 rounded-top rounded-bottom" placeholder="Enter Account Number" autocomplete="off">
+  </div>
+  <button type="submit" name="balanceButton" class="btn btn-success btn-lg mt-5" value="balanceButton">Check Balance</button>
+</form>
+</body>
+
+<%- include("footer") -%>

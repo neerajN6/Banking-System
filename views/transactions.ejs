@@ -1,0 +1,28 @@
+<%- include("header") -%>
+
+  <body>
+    <h2>All Transactions</h2>
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Senders Account No</th>
+      <th scope="col">Recivers Account No</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <% transactionInfo.forEach(function(transItem){ %>
+      <tr>
+        <td><%= transItem.senderAcc %></td>
+        <td><%= transItem.recieverAcc %></td>
+        <td>₹<%= transItem.amt %></td>
+        <td><%= transItem.status %></td>
+      </tr>
+  <%  }) %>
+  </tbody>
+</table>
+  </body>
+
+<%- include("footer") -%>
